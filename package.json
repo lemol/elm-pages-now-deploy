@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Example site built with elm-pages.",
   "scripts": {
-    "build": "node ./elm-pages/generator/src/elm-pages.js build"
+    "build": "uname -a && export && FUNCTION_NAME=main node ./elm-pages/generator/src/elm-pages.js build"
   },
   "author": "Dillon Kearns",
   "license": "BSD-3",

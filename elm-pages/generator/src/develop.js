@@ -330,7 +330,8 @@ function webpackOptions(
           routes: routes,
           renderer: new PrerenderSPAPlugin.PuppeteerRenderer({
             renderAfterDocumentEvent: "prerender-trigger",
-            executablePath: executablePath
+            executablePath: executablePath,
+            headless: true
           })
         })
       ],

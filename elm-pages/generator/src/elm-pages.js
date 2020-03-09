@@ -137,6 +137,7 @@ function run() {
 
 chromium.executablePath
   .then(x => {
+    console.log(x, chromium.headless);
     executablePath = x;
     run();
   })
