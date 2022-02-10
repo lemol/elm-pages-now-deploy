@@ -11,7 +11,7 @@
     "chrome-aws-lambda": "^2.1.1",
     "elm-pages": "1.2.10",
     "highlight.js": "^9.15.10",
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   },
   "devDependencies": {
     "elm": "latest-0.19.1",
